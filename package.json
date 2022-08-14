@@ -1,0 +1,24 @@
+{
+  "name": "simple-blog",
+  "version": "1.0.0",
+  "description": "A Simple Blog using Node, Express, Mongoose and EJS.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/abdullahaslam2223/Simple-Blog.git"
+  },
+  "author": "Muhammad Abdullah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdullahaslam2223/Simple-Blog/issues"
+  },
+  "homepage": "https://github.com/abdullahaslam2223/Simple-Blog#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.2"
+  }
+}

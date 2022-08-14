@@ -1,0 +1,23 @@
+<%- include('./partials/head.ejs') %>
+
+    <body>
+
+        <%- include('./partials/navbar.ejs') %>
+
+            <div class="write-blog-page">
+                <h1 class="write-blog-title">Write Blog</h1>
+                <form class="write-blog-form" action="/" method="POST">
+                    <label for="title">Enter Title...</label>
+                    <input type="text" name="title" id="title">
+                    <label for="author">Enter Author Name...</label>
+                    <input type="text" name="author" id="author">
+                    <label for="description">Description...</label>
+                    <textarea name="description" id="description" cols="30" rows="10">Write Blog...</textarea>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+
+            <%- include('./partials/footer.ejs') %>
+    </body>
+
+    </html>

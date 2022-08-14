@@ -1,0 +1,201 @@
+/* Importing Google Fonts Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar Styling Starts */
+
+.navbar {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 10px 10px rgb(233, 231, 231);
+    padding: 0 40px;
+}
+
+.img-logo {
+    height: 130px;
+}
+
+.menu-list ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.menu-list ul li a {
+    padding: 18px 30px;
+    background-color: #7e0650;
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.menu-list ul li a:hover {
+    background-color: #63053f;
+    transition: 0.5s;
+}
+
+/* Navbar Styling Ends */
+
+
+/* Home Page + Details Styling Starts */
+
+.home-page {
+    padding: 40px;
+}
+
+.home-page .post-title {
+    text-align: center;
+    color: #7e0650;
+}
+
+.home-page .divider {
+    width: 12%;
+    background-color: #7e0650;
+    margin: auto;
+    height: 3px;
+    border: none;
+    margin-top: 10px;
+}
+
+.blogs {
+    margin-top: 20px;
+}
+
+.single-blog {
+    background-color: rgba(243, 240, 240, 0.301);
+    margin: 10px;
+    padding: 30px;
+    border-left: 3px solid #7e0650;
+}
+
+.single-blog .single-title {
+    margin-bottom: 10px;
+}
+
+.single-blog .single-description {
+    margin-bottom: 20px;
+}
+
+.single-author {
+    background-color: rgba(218, 214, 214, 0.301);
+    padding: 8px;
+    margin-right: 10px;
+    border-left: 2px solid #7e0650;
+}
+
+.read-more {
+    text-decoration: none;
+    background-color: #7e0650;
+    color: white;
+    padding: 8px 12px;
+    margin-top: 20px;
+}
+
+
+#deleteBlogByID {
+    cursor: pointer;
+}
+
+/* Home Page + Details Styling Ends */
+
+
+/* About Page Styling Starts */
+
+.about-page {
+    display: flex;
+    padding: 50px 30px 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-page .about-image {
+    margin-left: 60px;
+    margin-bottom: -10px;
+    background-color: rgba(218, 214, 214, 0.301);
+    z-index: -1;
+}
+
+.about-page .about-description {
+    width: 30%;
+    margin: auto;
+}
+
+.about-page .about-description .about-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: #7e0650;
+}
+
+/* About Page Styling Ends */
+
+/* Write-Blog Page Styling Starts */
+
+.write-blog-page {
+    padding: 50px;
+}
+
+.write-blog-form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+.write-blog-page .write-blog-form input {
+    padding: 15px 10px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.write-blog-page .write-blog-form input[type='submit'] {
+    background-color: #7e0650;
+    border: none;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.write-blog-page .write-blog-form input[type='submit']:hover {
+    background-color: #63053f;
+    transition: 0.5s;
+}
+
+#description {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.write-blog-page .write-blog-title {
+    text-align: center;
+    color: #7e0650;
+}
+
+/* Write-Blog Page Styling Ends */
+
+
+/* Footer styling starts */
+footer {
+    background-color: #7e0650;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Footer styling ends */
